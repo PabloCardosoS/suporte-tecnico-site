@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #0077B5; /* Azul profissional */
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+section {
+  padding: 40px 0;
+}
+
+section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #0077B5; /* Azul profissional */
+}
+
+.intro p {
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.servicos ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.servicos li {
+  background-color: #fff;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.servicos li strong {
+  color: #0077B5; /* Azul profissional */
+  font-size: 1.1em;
+}
+
+.servicos p {
+  margin-top: 10px;
+  font-size: 1em;
+  color: #555;
+}
+
+.contato form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contato label {
+  font-weight: bold;
+}
+
+.contato input, .contato textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.contato textarea {
+  resize: vertical;
+  height: 150px;
+}
+
+.contato button {
+  background-color: #0077B5; /* Azul profissional */
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+.contato button:hover {
+  background-color: #005A8E; /* Azul mais escuro */
+}
+
+footer {
+  background-color: #0077B5; /* Azul profissional */
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer p {
+  font-size: 1em;
+}
